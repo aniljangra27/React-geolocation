@@ -3,6 +3,16 @@ Using Class componet and State in react
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Semantic UI is used to generate ICON https://semantic-ui.com/elements/icon.html 
+
+>Install the CSS library locally:
+
+npm install semantic-ui-css
+
+>Import the library into your root index.js component:
+
+import "semantic-ui-css/semantic.min.css";
+
 ## Available Scripts
 
 In the project directory, you can run:
