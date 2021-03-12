@@ -31,7 +31,17 @@ class App extends React.Component {
         );
 
     }
-    //render is require function of react
+
+    //Some Life cycle methods
+    componentDidMount() {
+        console.log('My component get mounted');
+    }
+    // before calling componentDidUpdate -- render get called 
+    componentDidUpdate() {
+        console.log('My component get updated ');
+    }
+
+    //render is require function of react and this also a life cycle method which called many times
     render() {
         if (this.state.errMessage && !this.state.lat) {
             return <dic> Error {this.state.errMessage}</dic>
